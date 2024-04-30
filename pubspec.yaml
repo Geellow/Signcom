@@ -1,0 +1,199 @@
+name: signcom
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.25.3
+  firebase_auth: ^4.16.0
+  page_transition: ^2.0.2
+  web_socket_channel: ^2.4.0
+  image_picker: ^1.0.7
+  shared_preferences: ^2.2.2
+  http: ^1.2.0
+  audioplayers: ^5.2.1
+  video_player: 2.2.0
+  cloud_firestore: ^4.15.8
+  firebase_storage: ^11.6.9
+  firebase_database: ^10.4.9
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_app_name: ^0.1.0
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#fffff"
+  adaptive_icon_foreground: "assets/logo_foregound.png"
+
+flutter_app_name:
+  name: "SignCom"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/logo2.png
+    - assets/alphabetics.jpg
+    - assets/Letters/AlphabeticsVideo.mp4
+    - assets/basicnumbers.jpg
+    - assets/google.png
+    - assets/c.jpg
+    - assets/c.jpg
+    - assets/Correct.mp3
+    - assets/Incorrect.mp3
+    - assets/Letters/Letter_C.jpg
+    - assets/Letters/Letter_A.jpg
+    - assets/Letters/Letter_U.jpg
+    - assets/Letters/Letter_J.jpg
+    - assets/Letters/Letter_F.jpg
+    - assets/Letters/Letter_Q.jpg
+    - assets/Letters/Letter_S.jpg
+    - assets/Letters/Letter_Y.jpg
+    - assets/Letters/Letter_M.jpg
+    - assets/Letters/Letter_N.jpg
+    - assets/Letters/Letter_B.jpg
+    - assets/Letters/Letter_D.jpg
+    - assets/Letters/Letter_E.jpg
+    - assets/Letters/Letter_G.jpg
+    - assets/Letters/Letter_H.jpg
+    - assets/Letters/Letter_I.jpg
+    - assets/Letters/Letter_K.jpg
+    - assets/Letters/Letter_L.jpg
+    - assets/Letters/Letter_O.jpg
+    - assets/Letters/Letter_P.jpg
+    - assets/Letters/Letter_R.jpg
+    - assets/Letters/Letter_T.jpg
+    - assets/Letters/Letter_V.jpg
+    - assets/Letters/Letter_W.jpg
+    - assets/Letters/Letter_X.jpg
+    - assets/Letters/Letter_Z.jpg
+    - assets/Numbers/No4.jpg
+    - assets/Numbers/No6.jpg
+    - assets/Numbers/No8.jpg
+    - assets/Numbers/No11.jpg
+    - assets/Numbers/No16.jpg
+    - assets/Numbers/No17.jpg
+    - assets/Numbers/No30.jpg
+    - assets/Numbers/No40.jpg
+    - assets/Numbers/No50.jpg
+    - assets/Numbers/No70.jpg
+    - assets/Numbers/No1.jpeg
+    - assets/Numbers/No2.jpeg
+    - assets/Numbers/No3.jpeg
+    - assets/Numbers/No5.jpeg
+    - assets/Numbers/No7.jpeg
+    - assets/Numbers/No9.jpeg
+    - assets/Numbers/No10.jpeg
+    - assets/Numbers/No12.jpeg
+    - assets/Numbers/No13.jpeg
+    - assets/Numbers/No14.jpeg
+    - assets/Numbers/No15.jpeg
+    - assets/Numbers/No18.jpeg
+    - assets/Numbers/No19.jpeg
+    - assets/Numbers/No20.jpeg
+    - assets/Numbers/No60.jpeg
+    - assets/Numbers/No80.jpeg
+    - assets/Numbers/No90.jpeg
+    - assets/Numbers/No100.jpeg
+    - assets/Numbers/NumbersVideo.mp4
+    - assets/Greetings/Greetings1.jpg
+    - assets/Greetings/Greetings2.jpg
+    - assets/Greetings/Greetings3.jpg
+    - assets/Greetings/Greetings4.jpg
+    - assets/Know/Knowing1.jpg
+    - assets/Know/Knowing2.jpg
+    - assets/Greetings/bye.jpg
+    - assets/Greetings/Congratulation.jpg
+    - assets/Greetings/Forgive.jpg
+    - assets/Greetings/GN.jpg
+    - assets/Greetings/HBD.jpg
+    - assets/Greetings/Hello.jpg
+    - assets/Greetings/HRU.jpg
+    - assets/Greetings/Imsorry.jpg
+    - assets/Greetings/MC.jpg
+    - assets/Greetings/IMFF.jpeg
+    - assets/Greetings/TYVM.jpg
+    - assets/Greetings/Hi.jpeg
+    - assets/Greetings/GM.jpeg
+    - assets/Greetings/GA.jpeg
+    - assets/Greetings/GE.jpeg
+    - assets/Greetings/GD.jpeg
+    - assets/Greetings/IMF.jpeg
+    - assets/Greetings/PCI.jpeg
+    - assets/Greetings/EM.jpeg
+    - assets/Greetings/YAW.jpeg
+    - assets/Greetings/HNY.jpeg
+    - assets/Greetings/HV.jpeg
+    - assets/Greetings/HA.jpeg
+    - assets/Greetings/HE.jpeg
+    - assets/Greetings/EMM.jpeg
+    - assets/Know/Age.jpg
+    - assets/Know/CPnumber.jpg
+    - assets/Know/Name.jpg
+    - assets/Know/Birthday.jpg
+    - assets/Know/Nickname.jpg
+    - assets/Know/Surname.jpg
+    - assets/Know/Birthplace.jpg
+    - assets/Know/Telephone.jpg
+    - assets/Know/FamilyName.jpg
+    - assets/Know/Live.jpg
+    - assets/Know/Question1.jpg
+    - assets/Know/Question2.jpg
+    - assets/Know/SN.jpeg
+    - assets/Know/AR.jpeg
+    - assets/Know/WHO.jpeg
+    - assets/Know/WHAT.jpeg
+    - assets/Know/WHICH.jpeg
+    - assets/Know/WHEN.jpeg
+    - assets/Know/WHY.jpeg
+    - assets/Know/WHERE.jpeg
+    - assets/Know/HOW.jpeg
+    - assets/Pronouns/Pronouns1.jpg
+    - assets/Pronouns/Pronouns2.jpg
+    - assets/Pronouns/Pronouns3.jpg
+    - assets/Pronouns/Pronouns4.jpg
+    - assets/Pronouns/He.jpg
+    - assets/Pronouns/Hers.jpg
+    - assets/Pronouns/Herself.jpg
+    - assets/Pronouns/Himself.jpg
+    - assets/Pronouns/Myself.jpg
+    - assets/Pronouns/That.jpg
+    - assets/Pronouns/Them.jpg
+    - assets/Pronouns/Us.jpg
+    - assets/Pronouns/We.jpg
+    - assets/Pronouns/Yourself.jpg
+    - assets/Pronouns/HIS.jpeg
+    - assets/Pronouns/HIM.jpeg
+    - assets/Pronouns/SHE.jpeg
+    - assets/Pronouns/HER.jpeg
+    - assets/Pronouns/OUR.jpeg
+    - assets/Pronouns/THEY.jpeg
+    - assets/Pronouns/THEIR.jpeg
+    - assets/Pronouns/IT.jpeg
+    - assets/Pronouns/THIS.jpeg
+    - assets/Pronouns/THESE.jpeg
+    - assets/Pronouns/THOSE.jpeg
+    - assets/Pronouns/OURSELVES.jpeg
+    - assets/Pronouns/THEMSELVES.jpeg
+    - assets/Pronouns/ITSELF.jpeg
+    - assets/Greetings/GreetingsVideo1.mp4
+    - assets/Greetings/GreetingsVideo2.mp4
+    - assets/Greetings/GreetingsVideo3.mp4
+    - assets/SignCom.mp4
+    

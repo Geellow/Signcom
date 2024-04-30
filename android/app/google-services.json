@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "657634229937",
+    "firebase_url": "https://signcom-official-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "signcom-official",
+    "storage_bucket": "signcom-official.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657634229937:android:0ab8f4b73a68f3f9deac90",
+        "android_client_info": {
+          "package_name": "com.example.signcom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnGgct6_zE6sL9Wuwcn_rAC3Ag5M9Fa-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
